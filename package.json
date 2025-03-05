@@ -15,9 +15,13 @@
     "@babel/core": "^7.26.0",
     "@babel/generator": "^7.26.5",
     "@babel/parser": "^7.26.5",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.7",
     "@babel/traverse": "^7.26.5"
   },
   "dependencies": {
-    "@babel/helper-hoist-variables": "^7.24.7"
+    "@babel/helper-hoist-variables": "^7.24.7",
+    "doctrine": "^3.0.0",
+    "fs-extra": "^11.3.0"
   }
 }
